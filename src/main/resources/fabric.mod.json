@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "ourcraft-fixes",
+	"version": "${version}",
+	"name": "Ourcraft Fixes",
+	"description": "Fixes",
+	"authors": [
+		"bravely_beep"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/ourcraft-fixes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"bravelybeep.ourcraftfixes.OurcraftFixes"
+		],
+		"client": [
+			"bravelybeep.ourcraftfixes.OurcraftFixesClient"
+		]
+	},
+	"mixins": [
+		"ourcraft-fixes.mixins.json",
+		{
+			"config": "ourcraft-fixes.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {}
+}
