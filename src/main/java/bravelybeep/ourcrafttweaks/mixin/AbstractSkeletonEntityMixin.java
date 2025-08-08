@@ -1,4 +1,4 @@
-package bravelybeep.ourcraftfixes.mixin;
+package bravelybeep.ourcrafttweaks.mixin;
 
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EquipmentSlot;
@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 
 @Mixin(AbstractSkeletonEntity.class)
-public class AbstractSkeletonEntityMixin extends HostileEntity {
+public abstract class AbstractSkeletonEntityMixin extends HostileEntity {
 	protected AbstractSkeletonEntityMixin(EntityType<? extends HostileEntity> entityType, World world) {
 		super(entityType, world);
 	}

@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "bravelybeep.ourcraftfixes.mixin.client",
+	"package": "bravelybeep.ourcrafttweaks.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [],
 	"injectors": {

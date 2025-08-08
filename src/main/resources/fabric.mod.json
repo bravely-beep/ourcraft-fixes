@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "ourcraft-fixes",
+	"id": "ourcraft-tweaks",
 	"version": "${version}",
-	"name": "Ourcraft Fixes",
+	"name": "Ourcraft Tweaks",
 	"description": "Bug fixes and tweaks for the Ourcraft modpack.",
 	"authors": [
 		"bravely_beep"
 	],
 	"contact": {
-		"homepage": "https://github.com/bravely-beep/ourcraft-fixes",
-		"sources": "https://github.com/bravely-beep/ourcraft-fixes"
+		"homepage": "https://github.com/bravely-beep/ourcraft-tweaks",
+		"sources": "https://github.com/bravely-beep/ourcraft-tweaks"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/ourcraft-fixes/icon.png",
+	"icon": "assets/ourcraft-tweaks/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"bravelybeep.ourcraftfixes.OurcraftFixes"
+			"bravelybeep.ourcrafttweaks.OurcraftTweaks"
 		],
 		"client": [
-			"bravelybeep.ourcraftfixes.OurcraftFixesClient"
+			"bravelybeep.ourcrafttweaks.OurcraftTweaksClient"
 		]
 	},
 	"mixins": [
-		"ourcraft-fixes.mixins.json",
+		"ourcraft-tweaks.mixins.json",
 		{
-			"config": "ourcraft-fixes.client.mixins.json",
+			"config": "ourcraft-tweaks.client.mixins.json",
 			"environment": "client"
 		}
 	],
