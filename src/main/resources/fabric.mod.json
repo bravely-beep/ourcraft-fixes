@@ -3,13 +3,13 @@
 	"id": "ourcraft-fixes",
 	"version": "${version}",
 	"name": "Ourcraft Fixes",
-	"description": "Fixes",
+	"description": "Bug fixes and tweaks for the Ourcraft modpack.",
 	"authors": [
 		"bravely_beep"
 	],
 	"contact": {
-		"homepage": "",
-		"sources": ""
+		"homepage": "https://github.com/bravely-beep/ourcraft-fixes",
+		"sources": "https://github.com/bravely-beep/ourcraft-fixes"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/ourcraft-fixes/icon.png",

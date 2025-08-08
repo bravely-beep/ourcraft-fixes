@@ -3,7 +3,7 @@
 	"package": "bravelybeep.ourcraftfixes.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"AbstractSkeletonEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
